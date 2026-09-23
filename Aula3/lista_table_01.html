@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Exercício 1</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabelas em HTML</title>
+    </head>
+    <body>
         <main>
-            <table border="1" style="width: 100%;">
-
-                 <thead></thead>
-                    <tr>
-                        <th colspan="6" style="background-color: aquamarine;"><h1>Tabela de Serviços Mecânicos</h1></th>
-                    </tr>
-                    <tr>
-                        <th>Informações</th>
-                        <th>Segunda</th>
-                        <th>Terça</th>
-                        <th>Quarta</th>
-                        <th>Quinta</th>
-                        <th>Sexta</th>
-                    </tr>
-                 </thead>
-                 <!-- Corpo da Tabela -->
-                 <tbody>
-                    <!-- Primeira linha do corpo da tabela-->
-                    <tr>
-                        <td rowspan="2" style="background-image: url('https://cdn.pixabay.com/animation/2025/11/07/14/36/14-36-21-988_512.gif');">Informações Nutricionais</td>
-                        <td colspan="5" style="text-align: center;"><b>Arroz + Feijão</b></td>
-                    </tr>
-                    <tr>
-                        <!-- Segunda linha do corpo da tabela -->
-                        <td>Carne</td>
-                        <td>Frango</td>
-                        <td>Peixe</td>
-                        <td>Legumes</td>
-                        <td>Ficassê</td>
-                    </tr>
-                 </tbody>
-            </table>
+        <table border="1" style="width: 100%;">
+            <thead>
+                <tr>
+                  <th colspan="5" style="background-color: lightgreen; text-align: center;"><h1>Tabela de Serviços Mecânicos</h1></th>
+                </tr>
+                <tr>
+                    <th style="background-color: lightblue;" rowspan="4"><b>Nacionais</b></th>
+                    <th style="background-color: lightgray;">Veículos</th>
+                    <th style="background-color: lightgray;">Serviços</th>
+                    <th style="background-color: lightgray;">Tempo Previsto</th>
+                    <th style="background-color: lightgray;">Valor</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Caminhonete S10</td>
+                    <td>Suspensão</td>
+                    <td style="text-align: center;">3 horas e 25 minutos</td>
+                    <td style="text-align: right;">350,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete Ranger</td>
+                    <td>Freios</td>
+                    <td style="text-align: center;">3 horas e 45 minutos</td>
+                    <td style="text-align: right;">200,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete Hilux</td>
+                    <td>Troca de bateria</td>
+                    <td style="text-align: center;">30 minutos</td>
+                    <td style="text-align: right;">25,00</td>
+                </tr>
+                <tr>
+                    <td>Caminhonete D10</td>
+                    <td>Alinhamento</td>
+                    <td style="text-align: center;">1 hora e 40 minutos</td>
+                    <td style="text-align: right;">220,00</td>
+                </tr>
+            </tbody>
+        </table>
         </main>
     </body>
 </html>
